@@ -62,7 +62,7 @@ body{
 .upSide{
     display: flex;
     flex-direction: row;
-    height: 20%;
+    height: 10%;
     width: 100%;
 }
 
@@ -94,10 +94,10 @@ body{
     border-radius: 40px;
     color: rgb(145, 145, 145);
     font-size: 18px;
-    height:45%;
+    height:90%;
 }
 .btn-search{
-    height: 42%;
+    height: 90%;
     margin-top: 9px;
     padding-bottom: 9px;
     padding-top: 9px;
@@ -116,7 +116,7 @@ body{
     border: 1px;
     border-style: solid;
     border-radius: 30px;
-    margin-bottom: 29px;
+    margin-top: 15px;
     cursor: pointer;
 }
 .btn-create{
@@ -132,12 +132,14 @@ body{
     padding-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    margin-bottom: 30px;
-    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom:0px;
+    margin-left: 80px;
 }
 .bell{
     font-size: 17px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    margin-top: 10px;
 }
 .profile{
     border-width: 1px;
@@ -146,23 +148,49 @@ body{
     height: 33px;
     border-radius: 30px;
     margin-right: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
 .downSide{
     display: flex;
     flex-direction: column;
-    height: 80%;
+    height: 90%;
     width: 100%;
 }
+.headers{
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+}
+
 .line-one{
     width: 100%;
-    height: 50%;
+    height: 42.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
 }
+.content-one{
+    width: 33.33%;
+    height: 100%;
+}
+.content-two{
+    width: 33.33%;
+    height: 100%;
+}
+.content-three{
+    width: 33.33%;
+    height: 100%;
+}
+
 .line-two{
     width: 100%;
-    height: 50%;
+    height: 42.5%;
+    display: flex;
+    flex-direction: row;
 }
 
 a{
